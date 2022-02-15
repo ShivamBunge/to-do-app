@@ -16,11 +16,11 @@ code {
   max-width: 500px;
 }
 .content {
-  border: 5px #c0c0ff solid;
-  border-radius: 5px;
+  border: 5px rgb(241, 31, 73) solid;
+  border-radius: 15px;
   font-size: 20px;
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: #eee5e5;
+  padding: 50px;
 }
 table {
   width: 100%;
@@ -48,17 +48,17 @@ button {
   cursor: pointer;
 }
 button.add {
-  background-color: #0080ff;
+  background-color: green;
   color: #ffffff;
 }
 
 button.edit {
-  background-color: #20a0b0;
+  background-color: #006472;
   color: #ffffff;
 }
 
 button.delete {
-  background-color: #e04040;
+  background-color: crimson;
   color: #ffffff;
 }
 
