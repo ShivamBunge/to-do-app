@@ -46,10 +46,10 @@ export default class Main extends React.Component {
           <CreateTask createTask={this.createTask} />
           <br />
           <TaskList
-            tasks={this.state.tasks}
-            deleteTask={this.deleteTask}
-            editTask={this.editTask}
-            toggleTask={this.toggleTask}
+            tasks={this.state.tasks}     //passing function to children
+            deleteTask={this.deleteTask} //same
+            editTask={this.editTask}     //same
+            toggleTask={this.toggleTask} //same
           />
         </div>
       </div>
